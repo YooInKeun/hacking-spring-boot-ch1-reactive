@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @author Greg Turnquist
+ */
+// tag::code[]
 class Cart {
 
     private @Id String id;
@@ -21,6 +25,7 @@ class Cart {
         this.id = id;
         this.cartItems = cartItems;
     }
+    // end::code[]
 
     public String getId() {
         return id;
